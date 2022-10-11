@@ -18,10 +18,13 @@
    },
    "homepage": "https://github.com/93sumit-kumar/93sumit-kumar#readme",
    "dependencies": {
+      "bcrypt": "^5.1.0",
       "dot-env": "0.0.1",
       "dotenv": "^16.0.3",
       "ejs": "^3.1.8",
       "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "localStorage": "^1.0.4",
       "mongodb": "^4.2.2",
       "mongoose": "^6.6.5",
       "nodemon": "^2.0.20"

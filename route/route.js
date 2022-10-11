@@ -15,4 +15,5 @@ route.post('/login', authController.login);
 route.get('/signup', (req, res) => {
    res.render('signup');
 });
+route.post('/signup', authController.signup)
 module.exports = route;
